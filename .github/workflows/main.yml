@@ -14,6 +14,8 @@ jobs:
           repository: nebhardw/msx-developer-guides
       - name: Checking out local repo
         uses: actions/checkout@v3
+        with:
+          repository: nebhardw/simple-java-maven-app
       - name: Running ansible lint
         uses: ansible/ansible-lint@main
   finish_all:
