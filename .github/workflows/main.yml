@@ -6,3 +6,9 @@ jobs:
     steps:
       - name: Run echo command
         run: echo "Hello Hello"
+  checkout_code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: nebhardw/msx-developer-guides
