@@ -1,0 +1,6 @@
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Normal task for testing lint
+      command:
+        cmd: "echo hellooooo"
